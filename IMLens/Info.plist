@@ -17,9 +17,15 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Takes pictures to demonstrate image recognition.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Use your Photo library to read image data.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Use your Photo library to read image data.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -60,11 +66,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSCameraUsageDescription</key>
-	<string>Takes pictures to demonstrate image recognition.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Use your Photo library to read image data.</string>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Use your Photo library to read image data.</string>
 </dict>
 </plist>
